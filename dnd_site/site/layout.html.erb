@@ -5,15 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D&D Utility</title>
     <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
 <div class="container">
     <header>
        <h2>D&D Utility</h2>
         <img src="img/logga.jpg" alt="logga">
+        <i class="material-icons" onclick="toggleMenu()">menu</i>
+        <div class="menu">
+            
+            <ul>
+                <i class="material-icons" onclick="toggleMenu()">close</i>
+                <li>Stuffs 1</li>
+                <li>Stuffs 2</li>
+                <li>Stuffs 3</li>
+            </ul>
+            
+        </div>
+        
     </header>
-    <%= yield %>
-</div>
+    <main>
+        <%= yield %>
+    </main>
     
+</div>
+<script src="js/menu.js"></script>
 </body>
 </html>
