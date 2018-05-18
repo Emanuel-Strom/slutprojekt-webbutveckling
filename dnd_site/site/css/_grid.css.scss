@@ -28,7 +28,8 @@ header {
     grid-template-columns: repeat(4, 1fr); 
     grid-template-rows: repeat(1, 1fr);   
     background-color: rgb(219, 206, 159);
-    h2 {
+    h2 {font-size: 4vh;
+
         grid-column: 2/4;
         grid-row: 1/2;
         text-align: center;
