@@ -19,6 +19,7 @@ body {
 }
 
 header {
+
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -26,7 +27,7 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     grid-template-rows: repeat(1, 1fr);   
-    background-color: #F8EAB6;
+    background-color: rgb(219, 206, 159);
     h2 {
         grid-column: 2/4;
         grid-row: 1/2;
@@ -36,24 +37,37 @@ header {
     .material-icons{
         grid-row: 1;
         text-align: center;
-        padding-top: 4vh;
+        margin-top: 3vh;
     }
     .menu {
+        .material-icons {
+            margin: 0px;
+        }
+        
+        li {
+            padding: 0px;
+            padding-right: 3vw;
+        }
+        ul {
+            padding-right: 10vw;
+        }
         grid-row: 1;
         grid-column: 1;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 0px;
         position: absolute;
-        height: auto;
+        height: 150vh;
         width: 30vw;
         display: none;
-        background-color: purple;
+        background-color: rgb(219, 206, 159);
+        border-right: black solid 2px;
     }
     
     img {
         grid-column: 4;
-        text-align: center;
-        padding-top: 3vh;
+        height: 7vh;
+        margin-left: 6vw;
+        margin-top: 1.5vh;
     }
    
 }
