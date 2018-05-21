@@ -2,7 +2,7 @@ body {
   margin: 0; }
 
 .container {
-  height: 150vh;
+  height: 110vh;
   width: 100vw;
   background-color: black; }
   .container .show {
@@ -39,8 +39,6 @@ header {
     display: none;
     background-color: #dbce9f;
     border-right: black solid 2px; }
-    header .menu .material-icons {
-      margin: 0px; }
     header .menu li {
       padding: 0px;
       padding-right: 3vw; }
@@ -55,7 +53,7 @@ header {
 .indexmain {
   background-color: #F8EAB6;
   width: 100vw;
-  height: 140vh;
+  height: 110vh;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(12, 1fr); }
@@ -70,21 +68,29 @@ header {
 
 .charmain {
   width: 100vw;
-  height: 140vh;
+  height: 110vh;
   background-color: #F8EAB6;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(12, 1fr); }
-  .charmain .charsheet {
-    grid-row: 2/8;
+  .charmain a:first-of-type {
+    grid-row: 2;
+    grid-column: 3/7;
+    text-align: center;
+    padding-bottom: 6vh; }
+  .charmain a:nth-of-type(2) {
+    grid-row: 8;
     grid-column: 2/8;
+    text-align: center; }
+  .charmain .charsheet {
+    grid-row: 3/9;
+    grid-column: 3/8;
     height: 382px;
     width: 270px;
     padding-right: 2vw; }
     .charmain .charsheet img {
       border: solid black 1px;
-      width: inherit;
-      height: inherit; }
+      width: 50vw; }
 
 .dicemain {
   background-color: #F8EAB6; }
