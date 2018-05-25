@@ -82,6 +82,10 @@ header {
     grid-row: 8;
     grid-column: 2/8;
     text-align: center; }
+  .charmain .bg-images {
+    width: 318px;
+    height: 159px;
+    background: url("css_sprites.png") -10px -606px; }
   .charmain .charsheet {
     grid-row: 3/9;
     grid-column: 3/8;
@@ -93,4 +97,13 @@ header {
       width: 50vw; }
 
 .dicemain {
-  background-color: #F8EAB6; }
+  width: 100vw;
+  height: 110vh;
+  background-color: #F8EAB6;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  /*.bg-images {
+      width: 317px; height: 159px;
+      background: url('../img/css_sprites.png') -10px -606px;
+  } */ }

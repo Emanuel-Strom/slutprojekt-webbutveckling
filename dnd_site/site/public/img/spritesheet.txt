@@ -1,0 +1,24 @@
+right bot:
+
+.bg-corner_swirl_left_bot {
+    width: 597px; height: 576px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+
+
+left bot: 
+
+.bg-corner_swirl_right_bot {
+    width: 597px; height: 576px;
+    background: url('css_sprites.png') -627px -10px;
+}
+
+
+
+sidbryt:
+
+.bg-images {
+    width: 318px; height: 159px;
+    background: url('css_sprites.png') -10px -606px;
+}

@@ -17,6 +17,12 @@
         grid-column: 2/8;
         text-align: center;
     }
+
+    .bg-images {
+        width: 318px; height: 159px;
+        background: url('css_sprites.png') -10px -606px;
+    }
+    
     .charsheet {
         grid-row: 3/9;
         grid-column: 3/8;
@@ -27,7 +33,7 @@
             border: solid black 1px;
             width: 50vw;
         }
-
+        
     }
 
 }
